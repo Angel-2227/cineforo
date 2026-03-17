@@ -84,3 +84,31 @@ function buildGroup(cols, rows, id) {
 function initNavHighlight() {
   // simple smooth nav if needed in future
 }
+
+// ── LIGHTBOX ──────────────────────────────────────────────────
+document.addEventListener("DOMContentLoaded", function () {
+  const cards = document.querySelectorAll(".material-card");
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightboxImg");
+
+  cards.forEach(card => {
+    card.addEventListener("click", function () {
+      const img = card.querySelector("img");
+      if (!img || !img.src || img.src.endsWith("/")) return;
+      lightboxImg.src = img.src;
+      lightboxImg.alt = img.alt;
+      lightbox.classList.add("active");
+      document.body.style.overflow = "hidden";
+    });
+  });
+});
+
+window.closeLightbox = function () {
+  const lightbox = document.getElementById("lightbox");
+  lightbox.classList.remove("active");
+  document.body.style.overflow = "";
+};
+
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape") window.closeLightbox();
+});
