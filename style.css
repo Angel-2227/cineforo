@@ -108,7 +108,7 @@ body {
 /* ── TYPEWRITER LABEL ──────────────────────────────────── */
 .typewriter-label {
   font-family: var(--font-mono);
-  font-size: 0.78rem;
+  font-size: 0.92rem;
   color: var(--amber);
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -180,7 +180,7 @@ body {
 
 .hero-pre {
   font-family: var(--font-mono);
-  font-size: 0.82rem;
+  font-size: 1rem;
   color: var(--gray-light);
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -213,7 +213,7 @@ body {
 
 .hero-venue {
   font-family: var(--font-mono);
-  font-size: 0.78rem;
+  font-size: 0.95rem;
   color: var(--amber);
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -288,7 +288,7 @@ body {
 
 .about-text p {
   font-family: var(--font-mono);
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   line-height: 1.85;
   color: var(--sepia);
   margin-bottom: 1.2rem;
@@ -430,7 +430,7 @@ body {
 
 .pelicula-director {
   font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: var(--amber);
   letter-spacing: 0.1em;
   margin-bottom: 0.5rem;
@@ -438,7 +438,7 @@ body {
 
 .pelicula-credits-row {
   font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   color: var(--gray-light);
   margin-bottom: 2rem;
 }
@@ -463,7 +463,7 @@ body {
 .pelicula-contexto p,
 .pelicula-conexion p {
   font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-size: 0.97rem;
   line-height: 1.9;
   color: #c8c0b0;
   margin-bottom: 0.8rem;
@@ -489,7 +489,7 @@ body {
   padding-top: 0.1rem;
 }
 .saul-bass-note p {
-  font-size: 0.82rem !important;
+  font-size: 0.95rem !important;
   color: #d8c890 !important;
   margin: 0 !important;
 }
@@ -554,7 +554,7 @@ body {
   display: flex;
   gap: 0.8rem;
   font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: 0.88rem;
   color: #aaa;
   padding: 0.3rem 0;
   border-bottom: 1px solid rgba(255,255,255,0.05);
@@ -582,7 +582,7 @@ body {
 
 .sala-desc {
   font-family: var(--font-mono);
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--sepia);
   line-height: 1.8;
   max-width: 600px;
@@ -602,7 +602,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   color: var(--sepia);
 }
 .legend-item { display: flex; align-items: center; gap: 0.5rem; }
@@ -731,7 +731,7 @@ body {
   padding: 1.5rem 2rem;
   border-radius: 2px;
   font-family: var(--font-mono);
-  font-size: 0.82rem;
+  font-size: 0.97rem;
   line-height: 2;
   display: flex;
   flex-wrap: wrap;
@@ -752,7 +752,7 @@ body {
 
 .foro-desc {
   font-family: var(--font-mono);
-  font-size: 0.88rem;
+  font-size: 1rem;
   color: var(--gray-light);
   line-height: 1.85;
   max-width: 600px;
@@ -779,7 +779,7 @@ body {
 .form-group > label {
   display: block;
   font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: 0.88rem;
   font-weight: 700;
   letter-spacing: 0.15em;
   color: var(--amber);
@@ -793,7 +793,7 @@ body {
   border: 1px solid rgba(200,150,42,0.3);
   color: var(--cream);
   font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-size: 0.97rem;
   padding: 0.7rem 1rem;
   outline: none;
   transition: border-color 0.2s;
@@ -805,7 +805,7 @@ body {
 }
 .form-group small {
   display: block;
-  font-size: 0.65rem;
+  font-size: 0.78rem;
   color: var(--gray);
   margin-top: 0.4rem;
 }
@@ -818,7 +818,7 @@ body {
   gap: 0.6rem;
   cursor: pointer;
   font-family: var(--font-mono);
-  font-size: 0.82rem;
+  font-size: 0.97rem;
   color: var(--cream-dark);
 }
 .radio-opt input[type="radio"] { accent-color: var(--amber); }
@@ -831,7 +831,7 @@ body {
   gap: 0.6rem;
   cursor: pointer;
   font-family: var(--font-mono);
-  font-size: 0.82rem;
+  font-size: 0.97rem;
   color: var(--cream-dark);
 }
 .checkbox-opt input[type="checkbox"] { accent-color: var(--amber); }
@@ -891,7 +891,7 @@ body {
 
 .loading-msg {
   font-family: var(--font-mono);
-  font-size: 0.82rem;
+  font-size: 0.97rem;
   color: var(--gray);
   font-style: italic;
 }
@@ -907,7 +907,7 @@ body {
 
 .pregunta-peli {
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.75rem;
   letter-spacing: 0.2em;
   color: var(--amber);
   text-transform: uppercase;
@@ -916,7 +916,7 @@ body {
 
 .pregunta-texto {
   font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-size: 0.97rem;
   line-height: 1.7;
   color: var(--cream-dark);
   margin-bottom: 0.8rem;
@@ -931,7 +931,7 @@ body {
 
 .autor {
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.82rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -1087,11 +1087,36 @@ body {
   .foro-layout { grid-template-columns: 1fr; }
   .footer-inner { grid-template-columns: 1fr; text-align: center; }
   .footer-note { text-align: center; }
-  .sala-seats { flex-direction: column; align-items: center; gap: 0.8rem; }
-  .sala-aisle { writing-mode: horizontal-tb; }
+
+  /* Sala: scroll horizontal en lugar de apilar los grupos */
+  .sala-wrapper { align-items: stretch; }
+  .sala-map {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    max-width: 100%;
+    padding: 1.5rem 1rem;
+  }
+  /* mantener los dos grupos lado a lado siempre */
+  .sala-seats {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+    min-width: 320px;
+  }
+  .sala-aisle {
+    writing-mode: vertical-rl;
+    width: 24px;
+  }
+  .seat { width: 22px; height: 22px; }
+  .seat-row { gap: 4px; }
+  .seat-group { gap: 4px; }
+  .sala-info-box { flex-direction: column; gap: 0.3rem; }
 }
 
 @media (max-width: 560px) {
   .hero-title { font-size: clamp(4rem, 20vw, 8rem); }
   .reel { display: none; }
+  .pelicula-body { padding: 1.5rem; }
+  .pelicula-header { padding: 1rem 1.5rem; }
+  .foro-form-box { padding: 1.5rem; }
 }
